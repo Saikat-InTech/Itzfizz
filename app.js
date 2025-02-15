@@ -1,4 +1,3 @@
-// Mouse Movement Effect
 document.querySelectorAll('.image-box img').forEach(img => {
     img.addEventListener('mousemove', (e) => {
         const rect = img.getBoundingClientRect();
@@ -12,7 +11,6 @@ document.querySelectorAll('.image-box img').forEach(img => {
     });
 });
 
-// Hover Interaction: Other images turn vector-like
 document.querySelectorAll('.image-box').forEach(box => {
     box.addEventListener('mouseenter', () => {
         document.querySelectorAll('.image-box').forEach(other => {
